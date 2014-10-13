@@ -62,11 +62,16 @@ h1, h2 {
 }
 
 #cards dl dt {
-  border-bottom: 2px solid #525252; 
+  border-bottom: 1px solid #525252; 
+  border-top: 1px solid #525252; 
 }
 
 #cards dl dt:first-of-type {
   border-top: 2px solid #525252;
+}
+
+#cards dl dt:last-of-type {
+  border-bottom: 2px solid #525252;
 }
 
 #cards dl dt h3 {
@@ -87,6 +92,12 @@ h1, h2 {
 
 #cards dl dd{
   display: none;
+}
+
+#cards dl dt.active {
+  color: #f88200;
+  border-color: #f88200;
+  border-width: 2px;
 }
 
 #cards dl dd.active{
