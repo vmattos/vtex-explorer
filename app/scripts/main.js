@@ -1,10 +1,21 @@
-(function() {
+(function($) {
   "use strict";
 
-  var currentShowingDD = null;
+  var selectedDt;
 
   $('#cards dt').on('click', function() {
-    currentShowingDD = $(this).next();
-    currentShowingDD.toggleClass('active');
+    console.log(selectedDt)
+
+    if(selectedDt) {
+      selectedDt.toggleClass('active').next().toggleClass('active');
+    }
+
+    selectedDt = $(this);
+    selectedDt.toggleClass('active');
+
+    var dd = selectedDt.next();
+    dd = $(this).next();
+    dd.toggleClass('active');
   });
-})();
+
+})(jQuery);
