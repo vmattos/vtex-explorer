@@ -1,7 +1,7 @@
 (function($) {
   "use strict";
 
-  var selectedDt;
+  var selectedDt = $('#cards dt.active')
 
   $('#cards dt').on('click', function() {
     console.log(selectedDt)
