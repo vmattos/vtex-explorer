@@ -9,7 +9,7 @@ h1, h2 {
 }
 
 .container {
-  width: 50%;
+  width: 96%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -50,3 +50,33 @@ h1, h2 {
 /***********************************************/
 /*  CARDS SECTION                              */
 /***********************************************/
+
+#cards {
+  margin-top: 20px;
+  color: #525252;
+  font-weight: bold;
+}
+
+#cards dl dt {
+  border: 2px solid #525252;
+}
+
+#cards dl dt h3 {
+  font-size: 20px;
+  height: 42px;
+  margin: 22px 0 28px 0;
+}
+
+#cards .card-sm-description {
+  font-style: italic;
+  height: 2em;
+}
+
+#cards .card-sm-description+p {
+  font-size: 30px;
+  margin-bottom: 22px;
+}
+
+#cards dl dd {
+  display: none;
+}
