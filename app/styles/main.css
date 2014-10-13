@@ -57,8 +57,16 @@ h1, h2 {
   font-weight: bold;
 }
 
+#cards .container {
+  width: 100%;
+}
+
 #cards dl dt {
-  border: 2px solid #525252;
+  border-bottom: 2px solid #525252; 
+}
+
+#cards dl dt:first-of-type {
+  border-top: 2px solid #525252;
 }
 
 #cards dl dt h3 {
@@ -77,6 +85,18 @@ h1, h2 {
   margin-bottom: 22px;
 }
 
-#cards dl dd {
+#cards dl dd{
   display: none;
+}
+
+#cards dl dd.active{
+  display: block;
+}
+
+#cards dl dd.active + dt {
+  border-top: 2px solid #525252;
+}
+
+#cards dl dd:last-of-type.active {
+  border-bottom: 2px solid #525252;
 }
