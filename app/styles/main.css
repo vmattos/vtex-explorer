@@ -170,6 +170,13 @@ h1, h2 {
 #address p {
   font-size: 20px;
   margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#address p ~ p {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 15px;
 }
 
 #map-canvas {
