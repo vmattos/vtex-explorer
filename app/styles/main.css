@@ -201,7 +201,7 @@ footer  img {
   display: block;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 700px) {
   #cards .container {
     width: 657px;
   }
