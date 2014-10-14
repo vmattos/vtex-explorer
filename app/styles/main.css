@@ -200,3 +200,44 @@ footer  img {
   margin: 0 auto;
   display: block;
 }
+
+@media (min-width: 1024px) {
+  #cards .container {
+    width: 657px;
+  }
+
+  #cards {
+    position: relative;
+    padding-bottom: 213px;
+  }
+
+  #cards dl dt {
+    display: inline-block;
+    width: 31%;
+    border: 2px solid #525252;
+    border-radius: 15px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+
+  #cards dl dd {
+    width: 657px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    height: 169px;
+  }
+
+  #cards dl dd p {
+    width: 450px;
+    display: inline-block;
+  }
+
+  #cards dl dd a {
+    position: absolute;
+    top: 42%;
+    right: 60px;
+    margin-top: 0;
+  }
+}
