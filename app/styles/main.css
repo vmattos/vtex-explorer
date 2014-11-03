@@ -229,8 +229,12 @@ footer  img {
     position: relative;
   }
 
-  #cards dl div.active-row {
+  #cards dl div.row {
     position: relative;
+    height: 188px;
+  }
+
+  #cards dl div.active-row {
     padding-bottom: 200px;
   }
 
@@ -240,8 +244,22 @@ footer  img {
     border: 2px solid #525252;
     border-radius: 15px;
     margin-bottom: 8px;
-    margin-right: 8px;
     cursor: pointer;
+    position: absolute;
+  }
+
+  #cards dl dt:nth-of-type(1) {
+    left: 0;
+  }
+
+  #cards dl dt:nth-of-type(2) {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  #cards dl dt:nth-of-type(3) {
+    right: 0;
   }
 
   #cards dl dd {
@@ -250,6 +268,18 @@ footer  img {
     position: absolute;
     bottom: 0;
     height: 169px;
+  }
+
+  #cards dl div.active-row dd {
+    transition: 1s;
+  }
+
+  #cards dl div.active-row dd:nth-of-type(1):before {
+    left: -446px;
+  }
+
+  #cards dl div.active-row dd:nth-of-type(3):before {
+    left: 446px;
   }
 
   #cards dl dd p {

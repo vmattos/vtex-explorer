@@ -4,6 +4,8 @@
   var selectedDt = $('#cards dt.active');
 
   $('#cards dt').on('click', function() {
+    console.log($(this).index())
+
     if(selectedDt) {
       selectedDt.toggleClass('active')
       selectedDt.next().toggleClass('active');
