@@ -227,7 +227,11 @@ footer  img {
 
   #cards {
     position: relative;
-    padding-bottom: 213px;
+  }
+
+  #cards dl div.active-row {
+    position: relative;
+    padding-bottom: 200px;
   }
 
   #cards dl dt {
