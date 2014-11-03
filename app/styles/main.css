@@ -210,6 +210,10 @@ footer  img {
   display: block;
 }
 
+/***********************************************/
+/*  NOT-MODILE                                 */
+/***********************************************/
+
 @media (min-width: 700px) {
   #header-body {
     padding: 30px;
