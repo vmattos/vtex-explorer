@@ -1,5 +1,5 @@
-(function($) {
-  "use strict";
+(function(google) {
+  'use strict';
 
   google.maps.event.addDomListener(window, 'load', function() {
     var lat = -23.59606,
@@ -9,7 +9,7 @@
 
     var mapOptions = {
       center: location,
-      zoom: 16,
+      zoom: 15,
       disableDefaultUI: true,
       draggable: false,
       scrollwheel: false
@@ -24,7 +24,7 @@
     
     marker.setMap(map);
 
-    var service = new google.maps.places.PlacesService(map);
+    new google.maps.places.PlacesService(map);
   });
 
-})(jQuery);
+})(google);

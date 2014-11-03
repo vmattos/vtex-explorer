@@ -1,13 +1,12 @@
 (function($) {
-  "use strict";
+  'use strict';
 
   var selectedDt = $('#cards dt.active');
 
   $('#cards dt').on('click', function() {
-    console.log($(this).index())
 
     if(selectedDt) {
-      selectedDt.toggleClass('active')
+      selectedDt.toggleClass('active');
       selectedDt.next().toggleClass('active');
       selectedDt.parent().toggleClass('active-row');
     }
