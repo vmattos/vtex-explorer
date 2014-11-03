@@ -71,6 +71,7 @@ h1, h2 {
 #cards dl dt {
   border-bottom: 1px solid #525252; 
   border-top: 1px solid #525252; 
+  transition: 0.35s;
 }
 
 #cards dl dt:first-of-type {
@@ -148,6 +149,7 @@ h1, h2 {
   color: #f88200;
   border-color: #f88200;
   border-width: 2px;
+  transition: 0.35s;
 }
 
 #cards dl dd.active{
@@ -268,10 +270,6 @@ footer  img {
     position: absolute;
     bottom: 0;
     height: 169px;
-  }
-
-  #cards dl div.active-row dd {
-    transition: 1s;
   }
 
   #cards dl div.active-row dd:nth-of-type(1):before {
