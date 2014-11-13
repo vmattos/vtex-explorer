@@ -28,6 +28,14 @@ module.exports = function (grunt) {
     // Project settings
     config: config,
 
+    // Github Pages
+    'gh-pages': {
+      options: {
+        base: 'dist'
+      },
+      src: ['**']
+    },
+
     // Watches files for changes and runs tasks based on the changed files
     watch: {
       bower: {
