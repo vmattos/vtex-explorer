@@ -1,6 +1,6 @@
 body {
   color: #f5f5f5;
-  font-family: "petala-pro",Helvetica,Arial
+  font-family: "petala-pro",Helvetica,Arial;
 }
 
 h1, h2 {
@@ -27,7 +27,7 @@ h1, h2 {
 }
 
 #header-title #logo {
-  background-image: url("/images/logo.png");
+  background-image: url("../images/logo.png");
   width: 210px;
   height: 50px;
   text-indent: -99999px;
